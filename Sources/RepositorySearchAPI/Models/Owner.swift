@@ -8,7 +8,7 @@
 import Foundation
 
 public struct Owner: Decodable {
-    public let name: String
-    public let avatarUrl: URL
-    public let profileUrl: URL
+    public let login: String
+    public let avatar_url: URL
+    public let html_url: URL
 }

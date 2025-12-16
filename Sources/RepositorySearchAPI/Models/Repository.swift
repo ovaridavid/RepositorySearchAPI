@@ -11,9 +11,11 @@ public struct Repository: Decodable, Identifiable {
     public let id: Int
     public let name: String
     public let description: String?
-    public let starCount: Int?
-    public let forkCount: Int?
-    public let lastUpdate: Date
-    public let creationData: Date
+    public let html_url: URL
+    public let stargazers_count: Int
+    public let forks_count: Int
+    public let created_at: Date
+    public let updated_at: Date
     public let owner: Owner
 }
+

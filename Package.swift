@@ -17,10 +17,6 @@ let package = Package(
         .target(
             name: "RepositorySearchAPI",
             dependencies: []
-        ),
-        .testTarget(
-            name: "RepositorySearchAPITests",
-            dependencies: ["RepositorySearchAPI"]
         )
     ]
 )
