@@ -10,4 +10,7 @@ import Foundation
 public enum RepositorySearchError: Error {
     case invalidURL
     case invalidResponse
+    case unauthorized
+    case notFound
+    case httpError(statusCode: Int)
 }

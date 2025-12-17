@@ -35,11 +35,3 @@ enum RepositorySearchEndpoint {
         return url
     }
 }
-
-
-private extension RepositorySearchEndpoint {
-    enum Constants {
-        static let url: String = "https://api.github.com/search/repositories"
-        static let queryParam: String = "q"
-    }
-}
